@@ -14,6 +14,8 @@ export default function Button({ title, variant='solid',...rest }:Props) {
       borderWidth={variant === "outline" ? 1 : 0}
       borderColor='green.500'
       rounded="sm"
+      
+      
 
       _pressed={{
          bg:variant === 'outline' ? 'gray.500' : 'green.500',

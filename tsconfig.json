@@ -20,7 +20,7 @@
         "./src/storage/*"
       ],
       "@utils/*": [
-        "./src/utils/*"
+        "src/utils/*"
       ],
       "@services/*": [
         "./src/services/*"
