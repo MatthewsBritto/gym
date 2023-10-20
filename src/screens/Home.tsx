@@ -1,6 +1,7 @@
 import ExerciseCard from '@components/ExerciseCard';
 import Group from '@components/Group';
 import HomeHeader from '@components/HomeHeader';
+import { useAuth } from '@hooks/useAuth';
 import { useNavigation } from '@react-navigation/native';
 import { AppNavigationRoutesProps } from '@routes/app.routes';
 
@@ -8,8 +9,7 @@ import { VStack, FlatList, HStack, Heading, Text } from 'native-base';
 
 import { useState } from 'react';
 
-export function Home(){
-
+export function Home() {
    const [ groups, setGroups] = useState(['costa', 'biceps', 'triceps','ombro' ]);
    const [ groupsSelected, setGroupsSelected] = useState('costa');
 
