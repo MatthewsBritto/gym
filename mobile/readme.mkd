@@ -1,8 +1,0 @@
-### APREDIZADOS NESSE PROJETO
-
-## NATIVE BASE
-
-Native base é uma lib que disponibiza components visando construir interfaces consistentes e costumizaveis para android, IOS e web, aumentando a  produtividade do desenvolvimento.
-
-
-<!-- {React.version >= '18' ? children : <SSRProvider>{children}</SSRProvider>} -->
