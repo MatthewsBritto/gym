@@ -2,7 +2,8 @@
 
 Aplicativo desenvolvido com a finalidade de poder listar exercicios separados por grupos musculares
 e acompanhar detalhes importantes para um treino eficiente com um gif que mostra como executar
-os exercicios de forma correta.
+os exercicios de forma correta.   
+
 Desenvolvido em react native o aplicativo tem funcionalidades como autenticação, edição de dados, listagem de exercicios concluídos, entre outros...
 Todas as alterações são feitas por requisições HTTP na API REST  desenvolvida para o projeto.
 
